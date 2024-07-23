@@ -1,0 +1,21 @@
+[data-accordion] {
+  cursor: pointer;
+  overflow: hidden;
+  background-color: rgb(188, 188, 188);
+}
+[data-accordion].active [data-content] {
+  padding: 8px 12px;
+  opacity: 1;
+  transition: opacity 1s, height 0.1s, padding 1s;
+}
+[data-accordion] [data-btn] {
+  padding: 8px 12px;
+}
+[data-accordion] [data-content] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 1s, height 0.1s, padding 1s;
+  background-color: rgb(144, 144, 144);
+}/*# sourceMappingURL=style.css.map */
