@@ -1,9 +1,6 @@
 @charset "utf-8";
 [data-accordion] {
   overflow: hidden;
-  transition-property: height;
-  transition-duration: .4s;
-  transition-timing-function: cubic-bezier(.4, .4, 0, 1);
 
 }
 [data-accordion] > *:first-child {
@@ -16,6 +13,6 @@
   transition-duration: .4s;
   transition-timing-function: cubic-bezier(.4, .4, 0, 1);
 }
-.active [data-accordion-inner] {
+.active > [data-accordion-inner] {
   height: auto;
 }
