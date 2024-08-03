@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css.css">
+  <link rel="stylesheet" href="accordion.css">
+  <script src="new-index.js" defer></script>
+</head>
+<body>
+  <div data-accordion>
+    <div>クリック1</div>
+    <div>
+      <div>テキスト1</div>
+    </div>
+  </div>
+  <div data-accordion>
+    <div>クリック2</div>
+    <div>
+      <div>テキスト2_1</div>
+      <div>テキスト2_2</div>
+      <div>テキスト2_3</div>
+    </div>
+  </div>
+  <div data-accordion>
+    <div>クリック3_1</div>
+    <div data-accordion-inner>
+      <div data-accordion>
+        <div>テキスト3_1 + クリック</div>
+        <div data-accordion-inner>
+          <div>テキスト3_1_1</div>
+          <div>テキスト3_1_2</div>
+          <div>テキスト3_1_3</div>
+          <div>テキスト3_1_4</div>
+          <div>テキスト3_1_5</div>
+          <div>テキスト3_1_6</div>
+          <div>テキスト3_1_7</div>
+          <div>テキスト3_1_8</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-accordion>
+    <div>クリック3_2</div>
+    <div data-accordion-inner>
+      <div data-accordion>
+        <div>テキスト3_2 + クリック</div>
+        <div data-accordion-inner>
+          <div>テキスト3_2_1</div>
+          <div>テキスト3_2_2</div>
+          <div>テキスト3_2_3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

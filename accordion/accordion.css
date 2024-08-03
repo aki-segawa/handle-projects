@@ -1,0 +1,18 @@
+@charset "utf-8";
+[data-accordion] {
+  overflow: hidden;
+
+}
+[data-accordion] > *:first-child {
+  cursor: pointer;
+}
+[data-accordion] > *:last-child {
+  overflow: hidden;
+  height: 0;
+  transition-property: height;
+  transition-duration: .4s;
+  transition-timing-function: cubic-bezier(.4, .4, 0, 1);
+}
+.active > [data-accordion-inner] {
+  height: auto;
+}

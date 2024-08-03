@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+
+[data-accordion] {
+  cursor: pointer;
+  overflow: hidden;
+  background-color: rgb(188, 188, 188);
+}
+[data-accordion].active [data-accordion] [data-item] {
+  padding: 8px 12px;
+  height: auto;
+  opacity: 1;
+  transition: opacity 1s;
+}
+[data-accordion].active [data-accordion] [data-btn] {
+  padding: 8px 12px;
+  height: auto;
+  opacity: 1;
+  transition: opacity 1s;
+}
+[data-accordion].active [data-accordion].active [data-btn] {
+  padding: 8px 12px;
+  height: auto;
+  opacity: 1;
+  transition: opacity 1s;
+}
+[data-accordion].active [data-accordion].active [data-accordion] {
+  padding: 8px 12px;
+  height: auto;
+  opacity: 1;
+  transition: opacity 1s;
+  padding: 0;
+  padding-left: 8px;
+}
+[data-accordion].active [data-accordion].active [data-accordion] [data-item] {
+  padding: 8px 12px;
+  height: auto;
+  opacity: 1;
+  transition: opacity 1s;
+}
+[data-accordion] [data-btn] {
+  padding: 8px 12px;
+  height: auto;
+}
+[data-accordion] [data-accordion] {
+  overflow: visible;
+  height: auto;
+}
+[data-accordion] [data-accordion] [data-btn] {
+  height: 0;
+  padding: 0;
+  padding-left: 12px;
+  opacity: 0;
+  transition: opacity 1s;
+  background-color: rgb(144, 144, 144);
+}
+[data-accordion] [data-accordion] [data-item] {
+  height: 0;
+  padding: 0;
+  padding-left: 12px;
+  opacity: 0;
+  transition: opacity 1s;
+  background-color: rgb(144, 144, 144);
+}
+[data-accordion] [data-accordion] [data-accordion] {
+  height: 0;
+  padding: 0;
+  padding-left: 12px;
+  opacity: 0;
+  transition: opacity 1s;
+  background-color: rgb(144, 144, 144);
+}/*# sourceMappingURL=new-style.css.map */
